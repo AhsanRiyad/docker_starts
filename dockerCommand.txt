@@ -61,7 +61,7 @@
 
 
 11. to delete all stoped containers
- sudo docker container rm $( docker ps -aq )
+ sudo docker container rm $( sudo docker ps -aq )
 
 
 11. to enter into a container and run a command
