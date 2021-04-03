@@ -60,6 +60,9 @@
 10. to add an volume ( persistant data )
 
 
+11. to delete all stoped containers
+ sudo docker container rm $( docker ps -aq )
+
 
 11. to enter into a container and run a command
 sudo docker-compose exec app php artisan key:generate
